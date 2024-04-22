@@ -9,9 +9,7 @@ Este projeto tem como objetivo desenvolver um programa WEB para gerenciar dados 
 - **JPA e Hibernate**: Para persistência de dados, será utilizada a implementação de JPA, com preferência para o Hibernate devido à sua popularidade e suporte à especificação JPA.
 - **Injeção de Dependências**: Será utilizada a injeção de dependências, preferencialmente utilizando EJB (Enterprise JavaBeans), para facilitar a gerência de componentes e promover a modularidade do código.
 - **Estrutura do Projeto**: A arquitetura do projeto seguirá os princípios de modularidade e separação de preocupações, seguindo as convenções do padrão MVC (Model-View-Controller) para a organização dos componentes.
-- **Utilização do Maven**: O Maven foi escolhido como a ferramenta de automação de compilação e gerenciamento de dependências do projeto. Através do arquivo pom.xml, pude definir as dependências necessárias para as tecnologias utilizadas, como o JSF, PrimeFaces, Hibernate, entre outros.
-- Além disso, o Maven simplificou a configuração do ambiente de desenvolvimento, permitindo a fácil integração com o Apache TomEE e simplificando a implantação do projeto. No entanto, apesar de suas vantagens,
-- a configuração do Maven exigiu um tempo significativo para garantir que todas as dependências e plugins estivessem corretamente configurados para atender aos requisitos do projeto.
+- **Utilização do Maven**: O Maven foi escolhido como a ferramenta de automação de compilação e gerenciamento de dependências do projeto. Através do arquivo pom.xml, pude definir as dependências necessárias para as tecnologias utilizadas, como o JSF, PrimeFaces, Hibernate, entre outros. Além disso, o Maven simplificou a configuração do ambiente de desenvolvimento, permitindo a fácil integração com o Apache TomEE e simplificando a implantação do projeto. No entanto, apesar de suas vantagens, a configuração do Maven exigiu um tempo significativo para garantir que todas as dependências e plugins estivessem corretamente configurados para atender aos requisitos do projeto.
 
 ## Justificativa para o Projeto Não Funcionar Completo
 
