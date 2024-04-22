@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://java.sun.com/jsf/html"
+>
+
+<h:head>
+    <title>Menu Principal</title>
+    <link rel="stylesheet" type="text/css" href="resource/css/main.css"/> <!-- Importa o arquivo CSS para estilizar o menu -->
+</h:head>
+
+<h:body>
+    <div id="topo">
+        <h1>Olá, o que deseja?</h1>
+    </div>
+
+    <div id="menu">
+        <h:form>
+            <h:commandButton value="Inserir Pessoa" action="cadastrarPessoas.xhtml" />
+            <h:commandButton value="Atualizar Pessoa" action="cadastrarPessoas.xhtml" />
+            <h:commandButton value="Listar Pessoas" action="consultarPessoas.xhtml" />
+            <h:commandButton value="Excluir Pessoa" action="excluir_pessoa.xhtml" />
+            <h:commandButton value="Listar Endereços" action="consultarEndereco.xhtml" />
+        </h:form>
+    </div>
+</h:body>
+
+</html>
